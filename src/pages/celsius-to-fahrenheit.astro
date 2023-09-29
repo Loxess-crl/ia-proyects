@@ -1,0 +1,21 @@
+---
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout title="Celsius a Fahrenheit">
+  <div class="text-center flex flex-col justify-center items-center">
+    <h1 class="text-3xl text-slate-300">CELSIUS TO FAHRENHEIT</h1>
+    <div class="w-1/4">
+      <label
+        for="customRange1"
+        class="mb-2 inline-block text-neutral-700 dark:text-neutral-200"
+        >Celsius</label
+      >
+      <input
+        type="range"
+        class="transparent h-[4px] w-full cursor-pointer appearance-none border-transparent bg-neutral-200 dark:bg-neutral-600"
+        id="customRange1"
+      />
+    </div>
+  </div>
+</Layout>
