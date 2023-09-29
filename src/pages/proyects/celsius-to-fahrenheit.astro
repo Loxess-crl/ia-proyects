@@ -1,0 +1,13 @@
+---
+import InputRange from "../../components/InputRange";
+import Layout from "../../layouts/Layout.astro";
+---
+
+<Layout title="Celsius a Fahrenheit">
+  <div class="text-center flex flex-col justify-center items-center content-center h-28">
+    <h1 class="text-4xl text-slate-300">CELSIUS TO FAHRENHEIT</h1>
+    <div class="mt-16 w-1/4">
+      <InputRange client:visible />
+    </div>
+  </div>
+</Layout>
